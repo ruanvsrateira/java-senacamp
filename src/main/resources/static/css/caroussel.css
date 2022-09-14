@@ -3,7 +3,6 @@
 /* Padding below the footer and lighter body text */
 
 body {
-  padding-top: 3rem;
   padding-bottom: 3rem;
   color: #5a5a5a;
 }
@@ -50,6 +49,46 @@ body {
 .marketing .col-lg-4 p {
   margin-right: .75rem;
   margin-left: .75rem;
+}
+
+/* adaptacoes */
+
+.btn-secondary {
+    background-color:#F7941D;
+    border-color: #F7941D;
+    margin: auto;
+}
+
+.btn-secondary:hover {
+    background-color:#09738a;
+    border-color: #09738a;
+}
+
+.btn-primary {
+    background-color:#004A8D;
+    border-color: #004A8D;
+    margin: auto;
+}
+
+.btn-primary:hover {
+    background-color:#09738a;
+    border-color: #09738a;
+}
+
+.bg-dark {
+    background-color:#FDC180 !important;
+}
+
+.nav-link {
+    color: #F7941D;
+}
+
+.navbar-dark .navbar-nav {
+    color: #FDC180;
+}
+
+.table .thead-dark th {
+    background-color: #004A8D !important;
 }
 
 
