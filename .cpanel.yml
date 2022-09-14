@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/src/main/resources/templates
+    - /src/main/resources/static/img -R images $DEPLOYPATH
