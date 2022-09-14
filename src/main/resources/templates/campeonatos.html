@@ -28,7 +28,7 @@
     <link href="css/caroussel.css" rel="stylesheet">
 </head>
 <body>
-<div th:include="/commons/menu.html"></div>
+<div th:include="/commons/menu-menor.html"></div>
 <div class="container mt-5">
     <h1>
         Campenatos Disponíveis
@@ -51,7 +51,7 @@
                     <td style="width: 35%" th:text="${camp.local}"></td>
                     <td style="width: 25%">
                         <a th:href="@{/cadastrar-participante?idCamp={idCamp}(idCamp=${camp.id})}" class="btn btn-primary">Inscreva-se</a>
-                        <a href="@{/participantes?idCamp={idCamp}(idCamp=${camp.id})}" class="btn btn-secondary">Participantes</a>
+                        <a th:href="@{/participantes?idCamp={idCamp}(idCamp=${camp.id})}" class="btn btn-secondary">Participantes</a>
                     </td>
                 </tr>
                 </tbody>

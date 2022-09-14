@@ -23,8 +23,8 @@ public class ParticipanteController {
     @Autowired
     CampeonatoDAO campeonatoDAO;
 
-    @GetMapping("/participantes/{idCamp}")
-    String listarParticipantes(Model model,  @PathVariable("idCamp") Integer idCamp) {
+    @GetMapping("/participantes")
+    String listarParticipantes(Model model,  @RequestParam("idCamp") Integer idCamp) {
         model.addAttribute("participantes", participanteDAO.findAllById(Collections.singleton(idCamp)));
         return "participantes";
     }
