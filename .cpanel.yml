@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/ari1832/public_html/senacamp
+    - /bin cp * $DEPLOYPATH
