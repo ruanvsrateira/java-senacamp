@@ -79,8 +79,8 @@ body {
     background-color:#FDC180 !important;
 }
 
-.nav-link {
-    color: #F7941D;
+.nav-link:hover {
+    color: #004A8D !important;
 }
 
 .navbar-dark .navbar-nav {
@@ -91,6 +91,9 @@ body {
     background-color: #004A8D !important;
 }
 
+.new-one {
+    font-size: 1.5em !important;
+}
 
 /* Featurettes
 ------------------------- */
