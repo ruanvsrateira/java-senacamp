@@ -1,5 +1,5 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/src/main/resources/templates
-    - /src/main/resources/static/img -R images $DEPLOYPATH
+    - export DEPLOYPATH=/home/ari1832/public_html/
+    - /bin cp * $DEPLOYPATH
